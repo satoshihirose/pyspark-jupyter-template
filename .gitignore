@@ -94,8 +94,7 @@ ipython_config.py
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
-# Celery stuff
-celerybeat-schedule
+# Celery stuff celerybeat-schedule
 celerybeat.pid
 
 # SageMath parsed files
@@ -127,3 +126,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PySpark
+metastore_db/
+notebooks/data/output/
